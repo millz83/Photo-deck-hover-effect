@@ -1,0 +1,63 @@
+body {
+    background-color: plum;
+}
+
+.wrapper {
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.img {
+    position: relative;
+    height:130px;
+    width:160px;
+}
+
+.img-box {
+    padding:10px;
+    z-index: 200;
+    background: purple;
+    width:150px;
+    position: absolute;
+    top:0;
+    left:0;
+    box-shadow: 0 0 5px 0 #333;
+    border: 2px  solid #333;
+    transition:.5s;
+
+}
+
+.img:hover .box-1 {
+    top:0;
+    left:0;
+    width:200px;
+    transform:rotate(-60deg);
+ 
+
+    
+}
+
+
+
+.img:hover .box-2 {
+    top:0;
+    left:210px;
+    width:200px;
+    transform:rotate(-10deg);
+ 
+
+
+}
+
+.img:hover .box-3 {
+    top:45px;
+    left:-140px;
+    width:200px;
+    transform:rotate(-15deg);
+
+
+
+}
+
